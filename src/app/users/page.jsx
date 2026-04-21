@@ -3,7 +3,7 @@ import Image from "next/image";
 const UsersPage = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users');
     const users = await res.json();
-    console.log(users)
+    // console.log(users)
 
     return (
         <div className="grid grid-cols-3 gap-3 w-11/12 mx-auto py-10">
